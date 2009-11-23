@@ -3,7 +3,7 @@ Sirens is a collection of tools for segmentation, indexing, and retrieval of env
 
 # Installation
 ## OSX
-Grab the [OS X Universal Binary](http://cloud.github.com/downloads/plant/sirens-vamp/sirens-vamp.dylib) and place it in /Library/Audio/Plug-Ins/Vamp or $HOME/Library/Audio/Plug-Ins/Vamp. You can now use the Sirens feature from any application that supports Vamp. I strongly suggest [Sonic Visualizer](http://www.sonicvisualiser.org/) for interactively visualizing feature trajectories and [Sonic Annotator](http://omras2.org/SonicAnnotator) for running batch feature extraction processes for input into statistical packages such as Matlab.
+Grab the [OS X Universal Binary](http://cloud.github.com/downloads/plant/sirens-vamp/sirens-vamp.dylib) and place it in /Library/Audio/Plug-Ins/Vamp or $HOME/Library/Audio/Plug-Ins/Vamp. You can now use the Sirens features from any application that supports Vamp. I strongly suggest [Sonic Visualizer](http://www.sonicvisualiser.org/) for interactively visualizing feature trajectories and [Sonic Annotator](http://omras2.org/SonicAnnotator) for running batch feature extraction processes for input into statistical packages such as Matlab.
 
 ## Other platforms / from source
 A Makefile is included with the source that contains commented compilation commands for various platforms. Comment out the bits for OS X and uncomment the relevant commands for your platform.
