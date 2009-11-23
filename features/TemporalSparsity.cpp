@@ -27,7 +27,7 @@ string TemporalSparsity::getDescription() const {
 }
 
 string TemporalSparsity::getMaker() const {
-	return "Brandon Mechtley and Gordon Wichern";
+	return "Sirens";
 }
 
 int TemporalSparsity::getPluginVersion() const {

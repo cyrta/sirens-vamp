@@ -28,7 +28,7 @@ string SpectralCentroid::getDescription() const {
 }
 
 string SpectralCentroid::getMaker() const {
-	return "Brandon Mechtley and Gordon Wichern";
+	return "Sirens";
 }
 
 int SpectralCentroid::getPluginVersion() const {

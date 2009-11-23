@@ -37,7 +37,7 @@ string Harmonicity::getDescription() const {
 }
 
 string Harmonicity::getMaker() const {
-	return "Brandon Mechtley and Gordon Wichern";
+	return "Sirens";
 }
 
 int Harmonicity::getPluginVersion() const {

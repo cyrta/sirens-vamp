@@ -22,7 +22,7 @@ string Loudness::getDescription() const {
 }
 
 string Loudness::getMaker() const {
-	return "Brandon Mechtley and Gordon Wichern";
+	return "Sirens";
 }
 
 int Loudness::getPluginVersion() const {

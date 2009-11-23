@@ -19,7 +19,7 @@ string SpectralSparsity::getDescription() const {
 }
 
 string SpectralSparsity::getMaker() const {
-	return "Brandon Mechtley and Gordon Wichern";
+	return "Sirens";
 }
 
 int SpectralSparsity::getPluginVersion() const {

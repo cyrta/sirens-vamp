@@ -35,7 +35,7 @@ string TransientIndex::getDescription() const {
 }
 
 string TransientIndex::getMaker() const {
-	return "Brandon Mechtley and Gordon Wichern";
+	return "Sirens";
 }
 
 int TransientIndex::getPluginVersion() const {
