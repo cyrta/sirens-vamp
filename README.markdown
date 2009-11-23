@@ -11,4 +11,4 @@ Sirens-Vamp is based off research within the [Arts, Media and Engineering](http:
 Additionally, work on Sirens is supported by the [National Science Foundation](http://www.nsf.gov/) under Grants NSF IGERT DGE-05-04647 and NSF CISE Research Infrastructure 04-03428.
 
 # Copyright
-Copyright 2009 Arizona State University. Sirens-Vamp is licensed under the [GNU LGPL](http://creativecommons.org/licenses/LGPL/2.1/). See COPYING.LESSER for details. If you would like to use Sirens-vamp for a commercial application or have other difficulties with its licensing restrictions, please contact [Brandon Mechtley on Github](http://www.github.com/plant/).
+Copyright 2009 Brandon Mechtley, Gordon Wichern, and Arizona State University, released under the MIT License.
