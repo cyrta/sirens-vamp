@@ -18,4 +18,4 @@ Sirens-Vamp is based off research within the [Arts, Media and Engineering](http:
 Additionally, work on Sirens is supported by the [National Science Foundation](http://www.nsf.gov/) under Grants NSF IGERT DGE-05-04647 and NSF CISE Research Infrastructure 04-03428.
 
 # Copyright
-Copyright 2009 Brandon Mechtley, Gordon Wichern, and Arizona State University, released under the MIT License.
+Copyright 2009 Arizona State University, released under the MIT License.
