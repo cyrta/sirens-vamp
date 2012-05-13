@@ -10,7 +10,7 @@ VAMP_SDK_LIB_DIR = /usr/local/lib/vamp
 # LDFLAGS = -dynamiclib -install_name $(PLUGIN) $(VAMP_SDK_LIB_DIR)/libvamp-sdk.a -exported_symbols_list vamp-plugin.list
 
 ##  Uncomment these for an OS/X universal binary using command-line tools:
-CXXFLAGS = -isysroot /Developer/SDKs/MacOSX10.4u.sdk -arch i386 -arch ppc -I$(VAMP_SDK_INCLUDE_DIR) -Wall -fPIC
+CXXFLAGS = -isysroot /Developer/SDKs/MacOSX10.6.sdk -arch i386 -arch x86_64 -I$(VAMP_SDK_INCLUDE_DIR) -Wall -fPIC
 PLUGIN_EXT = .dylib
 PLUGIN = $(PLUGIN_LIBRARY_NAME)$(PLUGIN_EXT)
 LDFLAGS = -dynamiclib -install_name $(PLUGIN) $(VAMP_SDK_LIB_DIR)/libvamp-sdk.a -exported_symbols_list vamp-plugin.list

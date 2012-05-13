@@ -1,6 +1,8 @@
 # Sirens-Vamp
 Sirens is a collection of tools for segmentation, indexing, and retrieval of environmental sounds. For a working version of Sirens, see [sirens](http://github.com/plant/sirens-ruby). Sirens-Vamp is a project aimed at implementing the feature extraction and segmentation routines as [Vamp](http://vamp-plugins.com) plugins. In this way, hopefully the code can be more modular. For example, segmentation or retrieval could be done using feature sets more commonly used for music rather than natural sounds. Additionally, one can do analyses with these features using audio packages such as [Audacity](http://audacity.sf.net), [Sonic Visualizer](http://www.sonicvisualiser.org/), [Sonic Annotator](http://omras2.org/SonicAnnotator), and [VamPy](http://www.vamp-plugins.org/vampy.html).
 
+Eventually, use of Sirens-Vamp will eclipse that of Sirens, as segmentation can be performed on feature extraction output from Sonic Annotator. Currently, however, the Sirens C++ library benefits from multithreaded feature extraction, which Sonic Annotator does not yet support.
+
 # Installation
 ## OSX
 Grab the [OS X Universal Binary](http://cloud.github.com/downloads/plant/sirens-vamp/sirens-vamp.dylib) and place it in /Library/Audio/Plug-Ins/Vamp or $HOME/Library/Audio/Plug-Ins/Vamp. You can now use the Sirens features from any application that supports Vamp. I strongly suggest [Sonic Visualizer](http://www.sonicvisualiser.org/) for interactively visualizing feature trajectories and [Sonic Annotator](http://omras2.org/SonicAnnotator) for running batch feature extraction processes for input into statistical packages such as Matlab.
