@@ -9,7 +9,7 @@ Grab the [OS X Universal Binary](http://cloud.github.com/downloads/plant/sirens-
 
 ## Other platforms / from source
 A Makefile is included with the source that contains commented compilation commands for various platforms. Comment out the bits for OS X and uncomment the relevant commands for your platform.
-	
+
 # Acknowledgements
 Sirens-Vamp is based off research within the [Arts, Media and Engineering](http://ame.asu.edu/) program at [Arizona State University](http://asu.edu/). For more information, the following papers may be of interest:
 
