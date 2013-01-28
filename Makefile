@@ -1,5 +1,5 @@
 PLUGIN_LIBRARY_NAME = sirens-vamp
-PLUGIN_CODE_OBJECTS = plugins.o features/Loudness.o features/TemporalSparsity.o features/SpectralSparsity.o features/SpectralCentroid.o features/TransientIndex.o features/Harmonicity.o support/CircularArray.o
+PLUGIN_CODE_OBJECTS = plugins.o features/Loudness.o features/TemporalSparsity.o features/SpectralSparsity.o features/SpectralCentroid.o features/TransientIndex.o features/Harmonicity.o support/CircularArray.o segmentation/Segmenter.o segmentation/SegmentationParameters.o
 VAMP_SDK_INCLUDE_DIR = /usr/local/include
 VAMP_SDK_LIB_DIR = /usr/local/lib/vamp
 
@@ -43,3 +43,5 @@ clean:
 	rm -f *.o
 	rm -f features/*.o
 	rm -f support/*.o
+	rm -f segmentation/*.o
+
